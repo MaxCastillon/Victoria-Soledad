@@ -1,0 +1,81 @@
+.popmake-content h2, .popmake-content p {
+    color: #fff;
+    text-align: center;
+}
+
+.gform_confirmation_message {
+    text-align: center;
+    color: #fff;
+}
+
+.popmake-content h2:after{
+	display:none;
+}
+
+
+div#ally-footer img {
+    margin-right: 10px;
+}
+
+ a.become {
+    padding: 9px;
+    border-radius: 4px;
+    display: block;
+    width: 209px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+}
+
+
+form#gform_1 input[type=text], form#gform_3 input[type=text],form#gform_4 input[type=text], form#gform_2 input[type=text]  {
+    height: 50px;
+    margin: 0;
+    padding-left: 10px;
+}
+textarea#input_2_4 {
+    margin: 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+textarea#input_2_1::placeholder, form#gform_2 input[type=text]::placeholder, textarea#input_2_4::placeholder {
+    color: #fff;
+}
+
+form#gform_2 input[type=text] {
+    height: 50px;
+    margin: 0;
+	border: 0;
+	background: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+input#gform_submit_button_2 {
+    width: 150px;
+    font-weight: bold;
+    display: block;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 13px;
+    float: right;
+    text-transform: uppercase;
+    border-radius: 7px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+ 
+input#gform_submit_button_1, input#gform_submit_button_3, input#gform_submit_button_4, input#gform_submit_button_2 {
+    margin: 0 auto;
+    width: 200px;
+    display: block;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 13px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
